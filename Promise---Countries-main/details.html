@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- Loader -->
-    <div class="loader">
+    <div class="loader hidden">
       <div class="spinner">
         <i class="fa-regular fa-circle-notch fa-spin icon"></i>
       </div>
@@ -54,6 +54,7 @@
           type="button"
           aria-label="Theme Switcher Button"
           class="theme-toggle flex flex-jc-sb flex-ai-c"
+          id="darkMode"
         >
           <i class="fa-regular fa-moon theme-icon"></i>
           <span class="theme-text">Dark Mode</span>
@@ -69,12 +70,14 @@
         </a>
       </div>
     </div>
+
     <main class="main">
       <div class="container">
-        <section class="country-details"></section>
+        <section class="country-details no-flex" id="countryDetails"></section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+
+    <script type="module" src="./js/common.js"></script>
+    <script type="module" src="./js/details.js"></script>
   </body>
 </html>
