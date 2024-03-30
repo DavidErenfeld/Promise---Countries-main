@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   background-color: #fafafa;
@@ -35,6 +35,10 @@ h2,
 h3,
 h4 {
   color: #111517;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .container {
@@ -80,7 +84,7 @@ h4 {
 
 .button,
 button {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background: none;
   outline: none;
   border: none;
